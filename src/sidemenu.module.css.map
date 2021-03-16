@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "sidemenu.module.scss"
+    ],
+    "names": [],
+    "file": "sidemenu.module.css"
+}

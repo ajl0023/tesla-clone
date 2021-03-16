@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Gotham Medium", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  list-style: none;
+}
+
+.wrapper {
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+html {
+  height: 100vh;
+}
+
+.landing-page-wrapper {
+  scroll-snap-align: start;
+  background-repeat: no-repeat;
+  max-width: 100vw;
+  width: 100%;
+  overflow: hidden;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("./teslaBackg.jpg");
+}
+
+.model3-wrapper {
+  scroll-snap-align: start;
+  background-repeat: no-repeat;
+  max-width: 100vw;
+  width: 100%;
+  overflow: hidden;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("./desktopmodel3.jpg");
+}
+
+.modelS-wrapper {
+  scroll-snap-align: start;
+  background-repeat: no-repeat;
+  max-width: 100vw;
+  width: 100%;
+  overflow: hidden;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("./DesktopModelS.jpg");
+}
+
+.modelY-wrapper {
+  scroll-snap-align: start;
+  background-repeat: no-repeat;
+  max-width: 100vw;
+  width: 100%;
+  overflow: hidden;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("./Desktop-ModelY.jpg");
+}
+
+.solar-panel-wrapper {
+  scroll-snap-align: start;
+  background-repeat: no-repeat;
+  max-width: 100vw;
+  width: 100%;
+  overflow: hidden;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("./Desktop-SolarRoof.jpg");
+}
+
+.solar-panel-wrapper {
+  scroll-snap-align: start;
+  background-repeat: no-repeat;
+  max-width: 100vw;
+  width: 100%;
+  overflow: hidden;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("./Desktop-Accessories.jpg");
+}
+/*# sourceMappingURL=myApp.css.map */

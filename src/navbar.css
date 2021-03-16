@@ -1,0 +1,168 @@
+.navbar-container {
+  position: relative;
+  width: 100%;
+  position: fixed;
+  max-width: calc(100vw - 0.8em);
+}
+
+.navbar-container .navbar-content {
+  padding: 12px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #393c41;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar-container .navbar-item-container {
+  font-size: 13px;
+  font-weight: 600;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.navbar-container .logo {
+  -o-object-position: center center;
+     object-position: center center;
+  max-width: 78px;
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+.navbar-container .logo-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.navbar-container .user-options-menu-items-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.test {
+  background-color: white;
+}
+
+.hamburger-menu-container {
+  position: relative;
+  inline-size: 15px;
+  height: 15px;
+}
+
+.hamburger-menu-container .nav-checkbox-input {
+  opacity: 0;
+  display: none;
+}
+
+.hamburger-menu-container .nav-checkbox-input:checked ~ .nav-checkbox-label .main-trigger-icon {
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  background-color: transparent;
+}
+
+.hamburger-menu-container .nav-checkbox-input:checked ~ .nav-checkbox-label .main-trigger-icon:before {
+  top: 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.hamburger-menu-container .nav-checkbox-input:checked ~ .nav-checkbox-label .main-trigger-icon:after {
+  top: 0;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.hamburger-menu-container .nav-checkbox-label {
+  block-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  inline-size: 18px;
+  font-size: 14px;
+  display: block;
+  line-height: 21px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hamburger-menu-container .main-trigger-icon-container {
+  position: relative;
+  display: block;
+  block-size: 18px;
+}
+
+.hamburger-menu-container .main-trigger-icon-container .main-trigger-icon {
+  background-color: black;
+  inline-size: 100%;
+  position: absolute;
+  display: block;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  block-size: calc(20px / 10);
+  top: calc(36% + 2px);
+}
+
+.hamburger-menu-container .main-trigger-icon-container .main-trigger-icon:before {
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  block-size: calc(20px / 10);
+  background-color: black;
+  content: "";
+  top: -5px;
+  display: block;
+  position: absolute;
+  inline-size: 100%;
+}
+
+.hamburger-menu-container .main-trigger-icon-container .main-trigger-icon:after {
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  block-size: calc(20px / 10);
+  background-color: black;
+  content: "";
+  top: 5px;
+  display: block;
+  position: absolute;
+  inline-size: 100%;
+}
+/*# sourceMappingURL=navbar.css.map */

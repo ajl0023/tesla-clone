@@ -1,4 +1,4 @@
-Demo:https://ajl0023.github.io/tesla-clone/
+Demo: https://ajl0023.github.io/tesla-clone/
 
 
 # Getting Started with Create React App
